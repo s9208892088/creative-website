@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="YuHsien (Wilson) Ren" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <base target="_self" />
+    <title>Traveler Website</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!--This part is the head icons of the page-->
+    <link rel="shortcut icon" href="./travel.png" />
+    <link rel="bookmark" href="./travel.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body data-barba="wrapper">
+    <header class="nav_header">
+      <h1><a href="./index.html" id="logo">days.</a></h1>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+    </header>
+
+    <main data-barba="container" data-barba-namespace="home">
+      <section class="mountain slide">
+        <!--image part-->
+        <div class="hero_img">
+          <img src="./img/forest.png" alt="forest image" />
+          <div class="reveal_image"></div>
+        </div>
+
+        <!--text part-->
+        <div class="hero_desc">
+          <div class="title">
+            <h2>
+              Freedom at your <span class="mountain_span">fingertips.</span>
+            </h2>
+            <div class="title_swipe title_swipe1"></div>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, amet.
+            Quidem neque quia asperiores? Nam dolores omnis ex consectetur
+            temporibus.
+          </p>
+
+          <a class="explore mountain_explore">Explore</a>
+          <div class="reveal_text"></div>
+        </div>
+      </section>
+
+      <section class="hike slide">
+        <!--image part-->
+        <div class="hero_img">
+          <img src="./img/hike.png" alt="hike image" />
+          <div class="reveal_image"></div>
+        </div>
+
+        <!--text part-->
+        <div class="hero_desc">
+          <div class="title">
+            <h2>
+              <span class="hike_span">Blood boiling</span> exploring the nature.
+            </h2>
+            <div class="title_swipe title_swipe2"></div>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, amet.
+            Quidem neque quia asperiores? Nam dolores omnis ex consectetur
+            temporibus.
+          </p>
+
+          <a class="explore hike_explore">Explore</a>
+          <div class="reveal_text"></div>
+        </div>
+      </section>
+
+      <section class="fashion slide">
+        <!--image part-->
+        <div class="hero_img">
+          <img src="./img/fashion.png" alt="fashion image" />
+          <div class="reveal_image"></div>
+        </div>
+
+        <!--text part-->
+        <div class="hero_desc">
+          <div class="title">
+            <h2>Fashion <span class="fashion_span">inside out</span></h2>
+            <div class="title_swipe title_swipe3"></div>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, amet.
+            Quidem neque quia asperiores? Nam dolores omnis ex consectetur
+            temporibus.
+          </p>
+
+          <a href="./fashion/index.html" class="explore fashion_explore"
+            >Explore</a
+          >
+          <div class="reveal_text"></div>
+        </div>
+      </section>
+    </main>
+
+    <nav class="nav_bar">
+      <div class="nav_links">
+        <h3>Twitter</h3>
+        <h3>YouTube</h3>
+        <h3>Facebook</h3>
+      </div>
+
+      <div class="contact">
+        <h2>Stay in touch.</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+          exercitationem explicabo ullam quae nobis aperiam perspiciatis optio
+          quaerat assumenda vel?
+        </p>
+      </div>
+    </nav>
+
+    <!--for the cursor-->
+    <div class="cursor">
+      <span class="cursor_text"></span>
+    </div>
+
+    <!--page transition-->
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+    <!-- unpkg -->
+    <script src="https://unpkg.com/@barba/core"></script>
+
+    <!-- jsdelivr -->
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+
+    <!--scroll magic-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+      integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+      integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+      integrity="sha256-XBVALc3QsDSQiDtiaBwNZ2rxCJTHzlUhhlDQ84J8bw8="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--GSAP Library-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
+      integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app3.js"></script>
+  </body>
+</html>
